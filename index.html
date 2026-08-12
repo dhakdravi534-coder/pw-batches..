@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PW Batches Online - NEET preparation batches">
+<title>PW Batches Online</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f7f7fb;color:#171717}
+header{background:#fff;position:sticky;top:0;z-index:10;border-bottom:1px solid #eee}
+.nav{max-width:1100px;margin:auto;padding:15px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:22px;font-weight:800;color:#3320d8}
+nav a{margin:0 10px;text-decoration:none;color:#222;font-weight:600}
+.support{background:#4930df;color:#fff;padding:10px 15px;border-radius:10px;text-decoration:none;font-size:14px}
+.hero{max-width:1100px;margin:25px auto;padding:20px;display:grid;grid-template-columns:1fr 1.05fr;gap:30px;align-items:center}
+.hero h1{font-size:48px;line-height:1.05;margin-bottom:15px}
+.hero h1 span{color:#4b32df}
+.hero p{font-size:20px;color:#555;margin-bottom:25px}
+.hero-img{width:100%;border-radius:22px;display:block;box-shadow:0 8px 30px #0001}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.feature{text-align:center;font-size:13px;color:#333}
+.feature b{display:block;font-size:24px;margin-bottom:5px}
+.section{max-width:1100px;margin:20px auto;padding:20px}
+.section h2{font-size:30px;margin-bottom:7px}
+.sub{color:#666;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border:1px solid #e7e7ee;border-radius:18px;overflow:hidden;box-shadow:0 4px 18px #0000000b}
+.card img,.placeholder{width:100%;height:205px;object-fit:cover}
+.placeholder{display:flex;align-items:center;justify-content:center;background:#eeeaff;color:#4b32df;font-weight:700}
+.card-body{padding:16px}
+.tag{color:#f05a00;font-size:13px;font-weight:700}
+.card h3{font-size:21px;margin:8px 0}
+.info{font-size:14px;color:#555;margin:7px 0}
+.price{font-size:25px;font-weight:800;margin-top:15px}
+.old{font-size:14px;color:#888;text-decoration:line-through;margin-left:5px;font-weight:400}
+.buy{display:block;text-align:center;background:#4930df;color:#fff;text-decoration:none;padding:12px;border-radius:10px;margin-top:13px;font-weight:700}
+.payment{max-width:700px;margin:35px auto;background:#fff;border-radius:20px;padding:25px;text-align:center;box-shadow:0 4px 20px #0001}
+.upi{background:#f0efff;color:#3220c9;padding:13px;border-radius:10px;margin:15px 0;font-weight:700;word-break:break-all}
+footer{margin-top:40px;background:#4330db;color:#fff;padding:25px;text-align:center}
+@media(max-width:800px){
+ .hero{grid-template-columns:1fr;padding:15px}
+ .hero h1{font-size:38px}
+ .grid{grid-template-columns:1fr 1fr}
+ .features{grid-template-columns:repeat(2,1fr);gap:18px}
+ nav{display:none}
+}
+@media(max-width:520px){
+ .grid{grid-template-columns:1fr}
+ .hero h1{font-size:34px}
+ .section{padding:15px}
+ .hero-img{border-radius:15px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">🎓 PW BATCHES</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#batches">Batches</a>
+      <a href="#payment">Payment</a>
+    </nav>
+    <a class="support" href="https://t.me/" target="_blank">Contact / Support</a>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <h1>Learn. Practice.<br><span>Achieve.</span></h1>
+    <p>Online batches for NEET aspirants</p>
+    <div class="features">
+      <div class="feature"><b>👨‍🏫</b>Expert Faculty</div>
+      <div class="feature"><b>🎥</b>Live Classes</div>
+      <div class="feature"><b>📚</b>Study Material</div>
+      <div class="feature"><b>📝</b>Test Series</div>
+    </div>
+  </div>
+
+  <img class="hero-img" src="yakeen.jpg" alt="Yakeen NEET 3.0 2027 batch">
+</section>
+
+<section class="section" id="batches">
+  <h2>📚 Our Batches</h2>
+  <p class="sub">Choose your batch</p>
+
+  <div class="grid">
+
+    <!-- BATCH 1 -->
+    <div class="card">
+      <img src="yakeen.jpg" alt="Yakeen NEET 3.0 2027">
+      <div class="card-body">
+        <div class="tag">Class 12+ NEET</div>
+        <h3>Yakeen NEET 3.0 2027</h3>
+        <div class="info">📖 NEET 2027</div>
+        <div class="info">🔴 Ongoing</div>
+        <div class="price">₹399</div>
+        <a class="buy" href="#payment">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- BATCH 2 - SPACE -->
+    <div class="card">
+      <div class="placeholder">🖼️ Batch Image<br>Coming Soon</div>
+      <div class="card-body">
+        <div class="tag">Class 11+ NEET</div>
+        <h3>Batch 2 — Add Later</h3>
+        <div class="info">📖 Details coming soon</div>
+        <div class="price">₹399</div>
+        <a class="buy" href="#payment">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- BATCH 3 - SPACE -->
+    <div class="card">
+      <div class="placeholder">🖼️ Batch Image<br>Coming Soon</div>
+      <div class="card-body">
+        <div class="tag">NEET</div>
+        <h3>Batch 3 — Add Later</h3>
+        <div class="info">📖 Details coming soon</div>
+        <div class="price">₹399</div>
+        <a class="buy" href="#payment">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- BATCH 4 - SPACE -->
+    <div class="card">
+      <div class="placeholder">🖼️ Batch Image<br>Coming Soon</div>
+      <div class="card-body">
+        <div class="tag">NEET</div>
+        <h3>Batch 4 — Add Later</h3>
+        <div class="info">📖 Details coming soon</div>
+        <div class="price">₹399</div>
+        <a class="buy" href="#payment">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- BATCH 5 - SPACE -->
+    <div class="card">
+      <div class="placeholder">🖼️ Batch Image<br>Coming Soon</div>
+      <div class="card-body">
+        <div class="tag">NEET</div>
+        <h3>Batch 5 — Add Later</h3>
+        <div class="info">📖 Details coming soon</div>
+        <div class="price">₹399</div>
+        <a class="buy" href="#payment">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- BATCH 6 - SPACE -->
+    <div class="card">
+      <div class="placeholder">🖼️ Batch Image<br>Coming Soon</div>
+      <div class="card-body">
+        <div class="tag">NEET</div>
+        <h3>Batch 6 — Add Later</h3>
+        <div class="info">📖 Details coming soon</div>
+        <div class="price">₹399</div>
+        <a class="buy" href="#payment">Buy Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="payment" id="payment">
+  <h2>💳 Payment</h2>
+  <p>Pay ₹399 using your UPI app.</p>
+  <div class="upi">dhakdravi533@oksbi</div>
+  <a class="buy" href="upi://pay?pa=dhakdravi533@oksbi&pn=PW%20Batches%20Online&am=399&cu=INR">
+    📲 Pay ₹399 via UPI
+  </a>
+  <p style="font-size:13px;color:#666;margin-top:12px">
+    Payment complete karne ke baad authorized support channel par confirmation submit karein.
+  </p>
+</section>
+
+<footer>
+  © 2026 PW Batches Online
+</footer>
+
+</body>
+</html>
